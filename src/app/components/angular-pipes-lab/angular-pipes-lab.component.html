@@ -1,0 +1,48 @@
+
+   <!-- Q1 -->
+
+<!-- <h2>Built-in Pipes Demo</h2>
+
+<p><b>Original Text:</b> {{ 'Hello World' }}</p>
+<p><b>Uppercase:</b> {{ 'Hello World' | uppercase }}</p>
+<p><b>Lowercase:</b> {{ 'Hello World' | lowercase }}</p>
+<p><b>Date:</b> {{ today | date }}</p>
+<p><b>Currency:</b> {{ price | currency:'USD':true }}</p>
+<p><b>JSON:</b> {{ obj | json }}</p> -->
+
+           <!-- Q2 -->
+
+<!-- <h2>Parameterized pipes Demo</h2>
+
+<p><b>Slice:</b>{{'Angular Pipes' | slice:0.7}}</p>
+<p><b>Custom Date Format:</b>{{today | date:'fullDate'}}</p>
+<p><b>Currency With Code:</b>{{price | currency:'EUR'}}</p> -->
+
+
+
+        <!-- Q3 -->
+
+    <!-- <h2>Custom Pipe Demo</h2>
+    <p><b>TitleCase:</b>{{'anugular custom pipe' | titlecase}}</p>
+ -->
+
+
+        <!-- Q4 -->
+
+            <!-- <h2>Impure pipe</h2>
+        <p><b>Title Case Object Name:</b>{{obj.name |titlecase}}</p>
+        <button (click)="updatename()">Update Name</button> -->
+
+        <!-- Q5 -->
+
+    <!-- this answer in (activity-38) folder beacuse this is standalone -->
+
+
+    <ul>
+        <li *ngFor="let item of array | filterfruits : searchtext " >{{item}}</li>
+    </ul>
+      
+        <input type="text" [(ngModel)]="searchtext">
+      
+      
+    
