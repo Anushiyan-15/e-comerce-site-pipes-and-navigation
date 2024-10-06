@@ -6,3 +6,7 @@ describe('FilterfruitsPipe', () => {
     expect(pipe).toBeTruthy();
   });
 });
+
+function expect(pipe: FilterfruitsPipe) {
+  throw new Error('Function not implemented.');
+}
