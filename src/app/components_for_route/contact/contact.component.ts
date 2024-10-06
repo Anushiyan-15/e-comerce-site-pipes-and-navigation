@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-contact',
@@ -8,5 +9,10 @@ import { Component } from '@angular/core';
   styleUrl: './contact.component.scss'
 })
 export class ContactComponent {
+ 
+  myid;
+  constructor(private route:ActivatedRoute){
+    this.myid=this.route.snapshot.paramMap.get('id')
+  }
 
 }
