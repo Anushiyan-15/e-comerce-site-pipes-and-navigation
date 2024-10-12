@@ -26,4 +26,5 @@ export class AngularPipesLabComponent {
 
   array:any=['Apple','Banana','Greenapple','mango']
 
+  
 }
