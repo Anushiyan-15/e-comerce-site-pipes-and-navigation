@@ -1,10 +1,15 @@
 
 
 
-<!-- <p [innerHTML]="para  | highlightpipe : searchtext"></p>
+<p [innerHTML]="para  | highlightpipe : searchtext"></p>
 
 
-<input type="text" [(ngModel)]="searchtext" > -->
+<input type="text" [(ngModel)]="searchtext" >
 
 
-<p appHighlightdirective>hello world</p>
+<p appHighlightdirective>hello world </p>
+
+
+<p appAlphabetdirective>{{text}}</p>
+
+<input type="text" appAlphabetdirective [(ngModel)]="text">
